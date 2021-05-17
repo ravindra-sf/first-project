@@ -1,4 +1,7 @@
+import * as dotenv from 'dotenv';
 import {ApplicationConfig, FirstProjectApplication} from './application';
+
+dotenv.config();
 
 export * from './application';
 
